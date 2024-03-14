@@ -5,9 +5,10 @@ import SearchBar from "@/components/SearchBar";
 import ShowMore from "@/components/ShowMore";
 import { fuels, manufacturers, yearsOfProduction } from "@/constants/index";
 import Image from "@/node_modules/next/image";
+import { HomeProps } from "@/types/index";
 import { fetchCars } from "@/utils/index";
 
-export default async function Home({ searchParams }) {
+export default async function Home({ searchParams }: HomeProps) {
   const allCars = await fetchCars({
     manufacturer: searchParams.manufacturer || "",
     year: searchParams.year || 2022,
