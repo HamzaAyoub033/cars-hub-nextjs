@@ -1,7 +1,7 @@
 "use client";
 import { CarProps } from "@/types/index";
 import React, { Fragment } from "react";
-import Image from "next/Image";
+import Image from "@/node_modules/next/image";
 import {
   Dialog,
   Transition,
