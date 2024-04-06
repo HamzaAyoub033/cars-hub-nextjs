@@ -76,5 +76,3 @@ const CarCard = ({ car }: CarCardProps) => {
 };
 
 export default CarCard;
-
-
