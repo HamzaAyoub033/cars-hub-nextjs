@@ -1,4 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+I developed an advanced car rental web app using Next.js, TypeScript, Tailwind CSS, and PostgreSQL. It offers easy browsing and filtering of vehicles by name, model, fuel type, and year. Key details are displayed with an option for additional information. Pagination and server-side rendering ensure fast browsing.
 
 ## Getting Started
 
